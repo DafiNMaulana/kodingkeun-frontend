@@ -1,0 +1,400 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+/* font END */
+
+/* variables */
+:root {
+  --primary-ui-color: #080859;
+  --text-ui-color : #B4B4B4;
+  --darken-ui-color : #09093E;
+  --third-ui-color: #1C1E4E;
+  --fourth-ui-color: #A7D3EB;
+  --sidebar-ui-color: #c8dffa;
+}
+
+.btn-ui-primary-style {
+  font-family: 'inter', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+
+.btn-ui-primary-style::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 1px solid #080859;
+  top: 15px;
+  left: 10px;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+
+.btn-ui-secondary-style {
+  font-family: 'inter', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+
+.btn-ui-secondary-style::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  border: 1px solid #128CCE;
+  border-radius: 5px;
+}
+
+/* variables END */
+
+
+/* body */
+body {
+  background-color: #599BBF;
+  /* overflow-x: hidden; */
+}
+/* body END */
+
+/* navbar */
+.header-brand{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #000;
+  margin-left: -5px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #18191F;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.active-nav {
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  margin-top: -10px;
+}
+
+.bg-nav {
+  background-color: #A7D3EB;
+}
+/* navbar END */
+
+/* main content */
+.container:nth-child(2) .row .col-lg-5 img {
+  z-index: -2 !important;
+}
+
+.title-main-content {
+  font-family: 'inter', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 50px;
+}
+
+.desc-main-content {
+  font-size: 32px;
+  color: #fff;
+}
+
+.text-kodingkeun {
+  color: #FFE70B;
+}
+/* main content END */
+
+/* garis sosmed */
+.garis-sosmed {
+  opacity: .6;
+}
+
+.icon-sosmed {
+  right: 0px;
+  top: 30px;
+}
+/* garis sosmed END */
+
+
+/* produk kami */
+.title-produk-kami {
+  font-family: 'inter', sans-serif;
+  color: var(--primary-ui-color);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.quotes-produk-kami{
+  color: var(--primary-ui-color);
+  opacity: .7;
+}
+
+.votingkeun-img {
+  top: -20px;
+}
+
+.primary-content {
+  background-color: var(--darken-ui-color);
+  border-radius: 38px;
+  padding: 40px 0;
+}
+
+.title-app {
+  font-family: 'inter', sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.desc-app {
+  font-family: 'inter', sans-serif;
+  color: var(--text-ui-color);
+  font-size: 20px;
+}
+
+.desc-app-2 {
+  font-family: 'inter', sans-serif;
+  color: var(--text-ui-color);
+  font-size: 18px;
+}
+
+.gawai-evoting-1 {
+  left: -150px;
+  top: -100px;
+  z-index: 2;
+}
+
+.gawai-evoting-2 {
+  left: -10px;
+  top: -100px;
+  z-index: 2;
+}
+
+.showcase-evoting::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -30px;
+  width: 125%;
+  height: 130%;
+  opacity: .1;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  background-size: cover;
+  background-position: 100px center;
+  background-image: url('/asset/img/e-voting.png');
+  
+}
+
+.bg-primary-ui-color {
+  background-color: var(--third-ui-color);
+  border-radius: 38px;
+}
+
+.comingsoon-label {
+  background-color: #FF7A00;
+}
+
+.bg-produk-kami {
+  background-color: var(--fourth-ui-color);
+  padding: 10px 50px 50px 0;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.bg-produk-kami-2 {
+  background-color: var(--fourth-ui-color);
+  padding: 10px 50px 50px 0;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+/* produk kami END */
+
+
+/* pendekatan bisnis */
+.title-pendekatan-bisnis {
+  font-weight: bolder;
+  color: #18191F;
+  font-size: 40px;
+}
+/* pendekatan bisnis END */
+
+/* footer */
+.bg-footer-1 {
+  background-color: var(--primary-ui-color);
+  padding: 10px 50px 50px 0;
+  border-top-right-radius: 40px;
+  /* border-bottom-right-radius: 40px; */
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.a-footer {
+  color: #EEEFF4;
+}
+
+.a-footer-title {
+  color: #F4F5F7;
+  font-weight: 500;
+  font-family: 'inter', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.new-footer-feature {
+  font-family: 'Nanum Pen Script', cursive;
+  color: #2EC5CE;
+  font-size: 24px;
+}
+
+.footer-icon{
+  display: block;
+  position: absolute;
+  left: -30px;
+  bottom: -100px;
+  height: 289px;
+  width: 100%;
+  opacity: .7;
+}
+
+.bg-footer-2 {
+  content: '';
+  display: block;
+  height: 80px;
+  background: #000;
+}
+
+.bg-footer-2 > span {
+  color: #bcbec4;
+}
+/* footer END */
+
+
+/* responsive narvbar */
+.navbar-toggler {
+	border: none;
+	background: transparent !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.btn-close:active, 
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+}
+/* responsive narvbar END */
+
+
+/* ====responsive medium==== */
+@media (max-width: 992.98px) {
+
+  /* sidebar */
+  .bg-sidebar {
+    background: linear-gradient(to top, #435ed8, #6ec1ee);
+  }
+  /* sidebar END */
+
+  /* garis sosmed */
+  .icon-sosmed {
+      right: 0px;
+      top: 30px;
+    }
+  /* garis sosmed END*/
+
+
+  /* quotes produk kami */
+  .quotes-produk-kami > span {
+    font-size: 14px;
+  }
+  /* quotes produk kami END */
+
+
+  /* icon votingkeun produk kami */
+  .votingkeun-img {
+    width: 300px;
+    left: -20px;
+  }
+  /* icon votingkeun produk kami END */
+
+  /* footer icon */
+  .footer-icon {
+    display: none;
+  }
+  /* footer icon END */
+    
+}
+/* ====responsive medium END==== */ 
+
+
+/* ====responsive small tablet==== */
+
+@media (max-width: 767.98px) {
+
+  /* main content */
+  .title-main-content {
+    font-size: 40px;
+  }
+
+  .desc-main-content {
+    font-size: 25px;
+  }
+  /* main content END */
+
+  /* pendekatan bisnis */
+  .title-pendekatan-bisnis {
+    font-size: 30px;
+  }
+  /* pendekatan bisnis END */
+
+}
+
+/* ====responsive small END==== */
+
+
+/* ====responsive xtra small */
+
+@media (max-width: 576px) {
+  .title-main-content, .desc-main-content {
+    text-shadow: 1px 3px 3px black;
+  }
+
+  .btn-lihat-produk {
+    margin-top: 150px !important;
+  }
+
+  .bg-produk-kami {
+    position: relative;
+  }
+
+  .title-produk-kami {
+    font-size: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .title-app {
+    font-size: 30px;
+  }
+
+  .desc-app, .desc-app-2 {
+    font-size: 15px;
+  }
+}
+
+/* ====responsive xtra small END */
