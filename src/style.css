@@ -13,6 +13,10 @@
   --sidebar-ui-color: #c8dffa;
 }
 
+.font-inter {
+  font-family: 'inter', sans-serif;
+}
+
 .btn-ui-primary-style {
   font-family: 'inter', sans-serif;
   font-size: 16px;
@@ -369,11 +373,7 @@ body {
 
 @media (max-width: 576px) {
   .title-main-content, .desc-main-content {
-    text-shadow: 1px 3px 3px black;
-  }
-
-  .btn-lihat-produk {
-    margin-top: 150px !important;
+    text-shadow: 1px 1px 2px black;
   }
 
   .bg-produk-kami {
@@ -394,6 +394,30 @@ body {
 
   .desc-app, .desc-app-2 {
     font-size: 15px;
+  }
+
+  .padding-40px {
+    padding: 40px 0;
+  }
+
+  .title-pendekatan-bisnis {
+    font-size: 25px;
+  }
+
+  .btn-pendekatan {
+    position: relative;
+  }
+
+  .btn-pendekatan::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-ui-color);
+    z-index: -1;
   }
 }
 
