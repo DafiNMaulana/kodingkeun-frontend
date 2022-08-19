@@ -98,7 +98,7 @@ body {
 /* navbar END */
 
 /* main content */
-.container:nth-child(2) .row .col-lg-5 img {
+/* .home-ws1 .row .col-lg-5 img {
   z-index: -2 !important;
 }
 
@@ -116,18 +116,18 @@ body {
 
 .text-kodingkeun {
   color: #FFE70B;
-}
+} */
 /* main content END */
 
 /* garis sosmed */
-.garis-sosmed {
+/* .garis-sosmed {
   opacity: .6;
 }
 
 .icon-sosmed {
   right: 0px;
   top: 30px;
-}
+} */
 /* garis sosmed END */
 
 
