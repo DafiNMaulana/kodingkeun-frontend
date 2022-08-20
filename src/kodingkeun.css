@@ -129,6 +129,7 @@
 
 /* produk kami======================= */
 .produk-kami {
+  
   background: #A7D3EB;
   border-radius: 0 30px 30px 0;
 }
@@ -501,7 +502,7 @@ transform: scale(1.2);
 }
 
 }
-@media (max-width: 834px) {
+@media (max-width: 935px) {
 .ajid-card {
   transform: scale(1);
 }
@@ -542,6 +543,13 @@ transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
+  .product-s3 {
+    padding-top: 300px;
+    margin-top: -250px;
+  }
+}
+
+@media (max-width: 935px) {
   .product-s3 {
     padding-top: 300px;
     margin-top: -250px;
