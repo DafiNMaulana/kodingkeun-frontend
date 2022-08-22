@@ -13,6 +13,25 @@
 
 }
 
+.privacy-policy {
+  color: #000;
+  font-family: 'inter', sans-serif;
+}
+
+.alur-urut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: var(--darken-ui-color);
+  border-radius: 100%;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
 .bg-darken-ui-color {
     background-color: var(--darken-ui-color);
 }
@@ -465,6 +484,12 @@ body {
 
 }
 
+@media (max-width: 320px) {
+  .about-s3 {
+    margin-top: 100px !important;
+  }
+}
+
 @media (max-width: 834px) {
   .about-ws2 {
     top: -300px; 
@@ -502,7 +527,7 @@ transform: scale(1.2);
 }
 
 }
-@media (max-width: 935px) {
+@media (max-width: 990px) {
 .ajid-card {
   transform: scale(1);
 }
@@ -524,6 +549,18 @@ transform: scale(1.2);
 
 
 /* =============== Produck END */
+/* section 2 */
+.harigini {
+  line-height: 5px;
+}
+
+@media (max-width: 370px) {
+  .harigini {
+    line-height: 20px !important;
+  }
+}
+/* section 2 END */
+
 /* section 3 */
 .product-s3 {
   background-color: #04294F;
